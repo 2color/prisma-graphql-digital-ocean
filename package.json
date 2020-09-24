@@ -1,0 +1,24 @@
+{
+  "name": "prisma-graphql-digital-ocean",
+  "description": "An example showing how to deploy a GraphQL API build with Prisma and Apollo to Digital Ocean's App Platform",
+  "scripts": {
+    "dev": "node ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "2.7.1",
+    "apollo-server": "^2.18.0",
+    "graphql": "15.3.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "2.7.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "all"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
